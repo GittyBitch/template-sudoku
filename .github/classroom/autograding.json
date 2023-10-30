@@ -7,7 +7,7 @@
   "specs": {
     "title": "Richte ein 9x9 Sudoku-Gitter mit der ID 'sudoku-grid' mit Hilfe einer HTML-Tabelle ein"
   },
-  "name": "Setup a 9x9 Sudoku grid with ID 'sudoku-grid'",
+  "name": "Set up a 9x9 Sudoku grid with ID 'sudoku-grid'",
   "feedback": "There should be a 9x9 table grid with the ID 'sudoku-grid'.",
   "urls": [],
   "file": "sudoku.html",
