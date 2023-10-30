@@ -60,8 +60,8 @@
   "specs": {
     "title": "Sorge dafür, dass eine JavaScript Funktion pruefen() aufgerufen wird wenn der Button geklickt wird."
   },
-  "name": "The function pruefen() needs to be called",
-  "feedback": "Your button is not yet calling the function pruefen()",
+  "name": "The function pruefen() needs to be called by the button",
+  "feedback": "Your button is not yet calling the function pruefen() in its click event handler",
   "urls": [],
   "file": "sudoku.html",
   "javascript": "var wasPruefenCalled = false; function pruefen() { wasPruefenCalled = true; } (function() { document.getElementById('check-solution')?.click(); return wasPruefenCalled; })();",

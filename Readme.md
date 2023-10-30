@@ -38,7 +38,7 @@ Eure Aufgabe ist es, eine HTML-Datei namens sudoku.html zu erstellen mit einer H
 
 ---
 ### Sorge dafür, dass eine JavaScript Funktion pruefen() aufgerufen wird wenn der Button geklickt wird. (20 Punkte)
-#### The function pruefen() needs to be called
+#### The function pruefen() needs to be called by the button
 
 ###### Hilfe
 
