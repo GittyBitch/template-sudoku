@@ -18,6 +18,7 @@ Eure Aufgabe ist es, eine HTML-Datei namens sudoku.html zu erstellen mit einer H
 #### Include an input element in each cell of the Sudoku grid
 
 ###### Hilfe
+* [Spickzettel](https://www.w3schools.com/tags/tag_input.asp) 
 
 
 ---
@@ -25,6 +26,7 @@ Eure Aufgabe ist es, eine HTML-Datei namens sudoku.html zu erstellen mit einer H
 #### Include a 'Check Solution' button with ID 'check-solution' below the grid
 
 ###### Hilfe
+* [Spickzettel](https://www.w3schools.com/tags/tag_button.asp) 
 
 
 ---
