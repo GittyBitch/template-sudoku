@@ -18,13 +18,13 @@
 },
     {
   "specs": {
-    "title": "Füge  in jede Zelle des Sudoku-Gitters ein Input-Element ein"
+    "title": "Füge in jede Zelle des Sudoku-Gitters ein Input-Element ein und setze die Größe auf 1"
   },
-  "name": "Include an input element in each cell of the Sudoku grid",
-  "feedback": "Each cell in the Sudoku grid should contain an input element.",
+  "name": "Include an input element in each cell of the Sudoku grid and use size 1 for each field",
+  "feedback": "Each cell in the Sudoku grid should contain an input element sized to 1.",
   "urls": ["https://www.w3schools.com/tags/tag_input.asp"],
   "file": "sudoku.html",
-  "javascript": "(function() { var inputs = document.querySelectorAll('#sudoku-grid td input'); return inputs.length === 81 ? 'true' : 'false'; })()",
+  "javascript": "(function() { return document.querySelectorAll('#sudoku-grid td input[type=\"text\"]').length === 81 && [...document.querySelectorAll('#sudoku-grid td input[type=\"text\"]')].every(inp => inp.getAttribute('size') === '1'); })()",
   "output": "true",
   "comparison": "exact",
   "points": 20
