@@ -7,14 +7,14 @@ Eure Aufgabe ist es, eine HTML-Datei namens sudoku.html zu erstellen mit einer H
 * 45 Minuten (Viel Erfolg!)
 
 ---
-### Richte ein 9x9 Sudoku-Gitter mit der ID 'sudoku-grid' mit Hilfe einer HTML-Tabelle ein (25 Punkte)
+### Richte ein 9x9 Sudoku-Gitter mit der ID 'sudoku-grid' mit Hilfe einer HTML-Tabelle ein (20 Punkte)
 #### Setup a 9x9 Sudoku grid with ID 'sudoku-grid'
 
 ###### Hilfe
 
 
 ---
-### Füge  in jede Zelle des Sudoku-Gitters ein Input-Element ein (25 Punkte)
+### Füge  in jede Zelle des Sudoku-Gitters ein Input-Element ein (20 Punkte)
 #### Include an input element in each cell of the Sudoku grid
 
 ###### Hilfe
@@ -22,7 +22,7 @@ Eure Aufgabe ist es, eine HTML-Datei namens sudoku.html zu erstellen mit einer H
 
 
 ---
-### Füge unterhalb des Gitters eine Schaltfläche 'Lösung überprüfen' mit der ID 'check-solution' hinzu (25 Punkte)
+### Füge unterhalb des Gitters eine Schaltfläche 'Lösung überprüfen' mit der ID 'check-solution' hinzu (20 Punkte)
 #### Include a 'Check Solution' button with ID 'check-solution' below the grid
 
 ###### Hilfe
@@ -30,8 +30,15 @@ Eure Aufgabe ist es, eine HTML-Datei namens sudoku.html zu erstellen mit einer H
 
 
 ---
-### Geben Sie den Zellen des Sudoku-Gitters einen Rahmen (25 Punkte)
+### Gebe den Zellen des Sudoku-Gitters einen Rahmen (20 Punkte)
 #### Give the Sudoku grid cells a border
+
+###### Hilfe
+
+
+---
+### Sorge dafür, dass eine JavaScript Funktion pruefen() aufgerufen wird wenn der Button geklickt wird. (20 Punkte)
+#### The function pruefen() needs to be called
 
 ###### Hilfe
 

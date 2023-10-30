@@ -14,7 +14,7 @@
   "javascript": "(function() { var grid = document.querySelector('#sudoku-grid'); return grid && grid.rows.length === 9 && grid.rows[0].cells.length === 9 ? 'true' : 'false'; })()",
   "output": "true",
   "comparison": "exact",
-  "points": 25
+  "points": 20
 },
     {
   "specs": {
@@ -27,7 +27,7 @@
   "javascript": "(function() { var inputs = document.querySelectorAll('#sudoku-grid td input'); return inputs.length === 81 ? 'true' : 'false'; })()",
   "output": "true",
   "comparison": "exact",
-  "points": 25
+  "points": 20
 },
     {
   "specs": {
@@ -40,12 +40,12 @@
   "javascript": "(function() { var checkButton = document.querySelector('button#check-solution:not(:contained-in(#sudoku-grid))'); return checkButton && checkButton.textContent.trim() === 'Lösung überprüfen' ? 'true' : 'false'; })()",
   "output": "true",
   "comparison": "exact",
-  "points": 25
+  "points": 20
 },
 
     {
   "specs": {
-    "title": "Geben Sie den Zellen des Sudoku-Gitters einen Rahmen"
+    "title": "Gebe den Zellen des Sudoku-Gitters einen Rahmen"
   },
   "name": "Give the Sudoku grid cells a border",
   "feedback": "The cells in the Sudoku grid should have a border for clarity.",
@@ -54,8 +54,23 @@
   "javascript": "(function() { var cells = document.querySelectorAll('#sudoku-grid td'); for (var i = 0; i < cells.length; i++) { if (!window.getComputedStyle(cells[i]).border) return 'false'; } return 'true'; })()",
   "output": "true",
   "comparison": "exact",
-  "points": 25
+  "points": 20
+},
+    {
+  "specs": {
+    "title": "Sorge dafür, dass eine JavaScript Funktion pruefen() aufgerufen wird wenn der Button geklickt wird."
+  },
+  "name": "The function pruefen() needs to be called",
+  "feedback": "Your button is not yet calling the function pruefen()",
+  "urls": [],
+  "file": "sudoku.html",
+  "javascript": "let check=false; function pruefen() { check=true;}  return check;",
+  "output": "true",
+  "comparison": "exact",
+  "points": 20
 }
+
+
 
   ]
 }
