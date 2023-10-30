@@ -11,7 +11,7 @@
   "feedback": "There should be a 9x9 table grid with the ID 'sudoku-grid'.",
   "urls": [],
   "file": "sudoku.html",
-  "javascript": "(function() { var grid = document.querySelector('#sudoku-grid'); return grid && grid.rows.length === 9 && grid.rows[0].cells.length === 9 ? 'true' : 'false'; })()",
+  "javascript": "(function checkRow(grid, rowIndex = 0) { if (rowIndex >= 9) return 'true'; if (!grid || grid.rows.length !== 9 || grid.rows[rowIndex].cells.length !== 9) return 'false'; return checkRow(grid, rowIndex + 1); })(document.querySelector('#sudoku-grid'))",
   "output": "true",
   "comparison": "exact",
   "points": 20
