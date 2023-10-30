@@ -31,7 +31,7 @@
 },
     {
   "specs": {
-    "title": "Füge unterhalb des Gitters eine Schaltfläche 'Lösung überprüfen' mit der ID 'check-solution' hinzu"
+    "title": "Füge unterhalb des Sudoku-Feldes eine Schaltfläche 'Lösung überprüfen' mit der ID 'check-solution' hinzu"
   },
   "name": "Include a button with ID 'check-solution' below the grid",
   "feedback": "There should be a button below the grid with the text 'Lösung überprüfen' and an ID of 'check-solution'.",
