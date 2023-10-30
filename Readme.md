@@ -8,7 +8,7 @@ Eure Aufgabe ist es, eine HTML-Datei namens sudoku.html zu erstellen mit einer H
 
 ---
 ### Richte ein 9x9 Sudoku-Gitter mit der ID 'sudoku-grid' mit Hilfe einer HTML-Tabelle ein (20 Punkte)
-#### Setup a 9x9 Sudoku grid with ID 'sudoku-grid'
+#### Set up a 9x9 Sudoku grid with ID 'sudoku-grid'
 
 ###### Hilfe
 
