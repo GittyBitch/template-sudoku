@@ -33,11 +33,11 @@
   "specs": {
     "title": "Füge unterhalb des Gitters eine Schaltfläche 'Lösung überprüfen' mit der ID 'check-solution' hinzu"
   },
-  "name": "Include a 'Check Solution' button with ID 'check-solution' below the grid",
+  "name": "Include a button with ID 'check-solution' below the grid",
   "feedback": "There should be a button below the grid with the text 'Lösung überprüfen' and an ID of 'check-solution'.",
   "urls": ["https://www.w3schools.com/tags/tag_button.asp"],
   "file": "sudoku.html",
-  "javascript": "(function() { var checkButton = document.querySelector('button#check-solution:not(:contained-in(#sudoku-grid))'); return checkButton && checkButton.textContent.trim() === 'Lösung überprüfen' ? 'true' : 'false'; })()",
+  "javascript": "(function() { var checkButton = document.querySelector('button#check-solution'); return checkButton && checkButton.textContent.trim() === 'Lösung überprüfen' ? 'true' : 'false'; })()",
   "output": "true",
   "comparison": "exact",
   "points": 20
