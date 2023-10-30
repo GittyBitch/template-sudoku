@@ -64,7 +64,7 @@
   "feedback": "Your button is not yet calling the function pruefen()",
   "urls": [],
   "file": "sudoku.html",
-  "javascript": "function pruefen() { return 'true';} (function() {return document.getElementById('check-solution').click();})();",
+  "javascript": "var wasPruefenCalled = false; function pruefen() { wasPruefenCalled = true; } (function() { document.getElementById('check-solution')?.click(); return wasPruefenCalled; })();",
   "output": "true",
   "comparison": "exact",
   "points": 20
