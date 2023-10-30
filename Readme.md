@@ -23,7 +23,7 @@ Eure Aufgabe ist es, eine HTML-Datei namens sudoku.html zu erstellen mit einer H
 
 ---
 ### Füge unterhalb des Gitters eine Schaltfläche 'Lösung überprüfen' mit der ID 'check-solution' hinzu (20 Punkte)
-#### Include a 'Check Solution' button with ID 'check-solution' below the grid
+#### Include a button with ID 'check-solution' below the grid
 
 ###### Hilfe
 * [Spickzettel](https://www.w3schools.com/tags/tag_button.asp) 
