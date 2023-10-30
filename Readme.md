@@ -14,8 +14,8 @@ Eure Aufgabe ist es, eine HTML-Datei namens sudoku.html zu erstellen mit einer H
 
 
 ---
-### Füge  in jede Zelle des Sudoku-Gitters ein Input-Element ein (20 Punkte)
-#### Include an input element in each cell of the Sudoku grid
+### Füge in jede Zelle des Sudoku-Gitters ein Input-Element ein und setze die Größe auf 1 (20 Punkte)
+#### Include an input element in each cell of the Sudoku grid and use size 1 for each field
 
 ###### Hilfe
 * [Spickzettel](https://www.w3schools.com/tags/tag_input.asp) 
