@@ -6,7 +6,7 @@
 
 Eure Aufgabe ist es, eine HTML-Datei namens sudoku.html zu erstellen mit einer HTML Tabelle für das Spielfeld.
 * 100 Punkte
-* 45 Minuten (Viel Erfolg!)
+* 30 Minuten (Viel Erfolg!)
 
 ---
 <p>Ladet eure Lösung bitte nicht in den .github-Ordner.  </p>
@@ -17,6 +17,7 @@ Eure Aufgabe ist es, eine HTML-Datei namens sudoku.html zu erstellen mit einer H
 [![Test Status](../../blob/badges/.github/badges/testStatus_1.svg)](../../actions)  
 <li> Richte ein 9x9 Sudoku-Gitter mit der ID 'sudoku-grid' mit Hilfe einer HTML-Tabelle ein (20 Punkte)</li>
 Hilfe: 
+<ul><li><a href="https://www.w3schools.com/html/html_tables.asp">Spickzettel</a></li></ul> 
 
 ---
 
@@ -37,12 +38,14 @@ Hilfe:
 [![Test Status](../../blob/badges/.github/badges/testStatus_4.svg)](../../actions)  
 <li> Gebe den Zellen des Sudoku-Gitters einen Rahmen (20 Punkte)</li>
 Hilfe: 
+<ul><li><a href="https://www.w3schools.com/html/html_table_borders.asp">Spickzettel</a></li></ul> 
 
 ---
 
 [![Test Status](../../blob/badges/.github/badges/testStatus_5.svg)](../../actions)  
 <li> Sorge dafür, dass eine JavaScript Funktion pruefen() aufgerufen wird wenn der Button geklickt wird. (20 Punkte)</li>
 Hilfe: 
+<ul><li><a href="https://www.w3schools.com/jsref/event_onclick.asp">Spickzettel</a></li></ul> 
 
 ---
 </ol>
